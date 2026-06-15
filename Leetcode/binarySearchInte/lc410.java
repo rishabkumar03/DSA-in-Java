@@ -2,10 +2,12 @@ package Leetcode.binarySearchInte;
 // https://leetcode.com/problems/split-array-largest-sum/description/
 public class lc410 {
     public static void main(String[] args) {
-        
+        int[] nums = {7,2,5,10,8};
+        int m = 2;
+        System.out.println(splitArray(nums, m));
     }
 
-    public int splitArray(int[] nums, int m) {
+    public static int splitArray(int[] nums, int m) {
         int start = 0;
         int end = 0;
 
